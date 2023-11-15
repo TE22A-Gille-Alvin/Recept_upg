@@ -8,16 +8,47 @@ h1{
 }
 body{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 25px;
 }
 h2{
-    text-align: center;
     font-family: 'Abril Fatface', Verdana;
     font-size: larger;
 }
-nav{
-
-}
 li{
     list-style-type: none;
+    margin-bottom: 10px;
+    margin-right: 21px;
+}
+nav{
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+img{
+    width: 22%;
+    height: auto;
+}
+main{
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+h3{
+    font-family: 'Abril Fatface', Verdana;
+    font-size: larger;
+}
+div{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+p{
+    padding-left: 20px;
 }
